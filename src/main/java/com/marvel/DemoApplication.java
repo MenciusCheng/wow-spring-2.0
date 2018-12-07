@@ -1,4 +1,4 @@
-package com.marvel.demo;
+package com.marvel;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
