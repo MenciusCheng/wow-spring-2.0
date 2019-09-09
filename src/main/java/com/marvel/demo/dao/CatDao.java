@@ -8,5 +8,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface CatDao {
-    public Cat getCat(Long id);
+    Cat getCat(Long id);
+
+    int insert(Cat cat);
 }

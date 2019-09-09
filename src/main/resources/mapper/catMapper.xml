@@ -6,4 +6,10 @@
     <select id="getCat" parameterType="long" resultType="com.marvel.demo.domain.Cat">
         select * from cat where id = #{id}
     </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        insert into cat set
+        name=#{name},
+        age=#{age}
+    </insert>
 </mapper>
